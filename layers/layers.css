@@ -1,0 +1,48 @@
+body{
+	background:grey;
+	background-image:url('../img/bg.png');
+	height: 100%
+	margin:0;
+}
+#layerHolder{
+	position:absolute;
+	right:0px;
+	bottom:50px;
+	width:180px;
+	height:200px;
+	//border:1px solid;
+}
+#layerx { 
+	border:solid 1px #2d2d2d;
+	border-radius:5px;
+	width:57px;
+	position:relative;
+	height:30px;
+	transform:  skew(57deg, -8deg) ;
+	-webkit-transform:  skew(57deg, -8deg) ;
+	margin-bottom:-10px;
+	margin-left:30px;
+	-moz-transform: skew(57deg, -8deg) ;
+	-o-transform:  skew(57deg, -8deg) ;
+	-ms-transform:  skew(57deg, -8deg) ;
+}
+.a1{
+	//background:rgba(80,80,80,0.8);
+	background:grey;
+}
+.active{
+	//background:rgba(80,80,80,0.8);
+	background:yellow;
+}
+.a2{
+	//background:rgba(150,150,150,0.5);
+	background:silver;
+}
+.a1:hover, .a2:hover{
+	background:red;
+}
+#layerInfo{
+	position:absolute;
+	right:40px;
+	top:20px;
+}
