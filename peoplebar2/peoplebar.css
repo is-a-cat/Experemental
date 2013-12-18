@@ -109,6 +109,20 @@ body{
 	background:rgba(255,101,44,0.7);
 	border-color:rgb(255,101,44);
 }
+.only{
+	width:48px;
+	height:12px;
+	background:rgba(0,0,0,0.4);
+	border-radius:5px 5px 5px 5px;
+	//border-radius:3px;
+	border:1px solid;
+	margin-bottom:12px;
+}
+.only:hover{
+	//background:rgba(0,0,0,0.7);
+	background:rgba(255,101,44,0.7);
+	border-color:rgb(255,101,44);
+}
 #unitTxt{
 	position:absolute;
 	right:2px;
